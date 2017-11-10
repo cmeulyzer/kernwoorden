@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <title>Kern Woorden</title>
+</head>
+
+<body>
+    <header>
+        <h1>Leren lezen : kernwoorden</h1>
+    </header>
+    <article>
+        <form>
+            <fieldset>
+                <legend>Kernen:</legend>
+                <div>
+                    <input type="checkbox" id="kern1" name="kern1" value="k1" onchange="updateWords();" checked>
+                    <label for="kern1">Kern 1</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="kern2" name="kern2" value="k2" onchange="updateWords();">
+                    <label for="kern1">Kern 2</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="kern3" name="kern3" value="k3" onchange="updateWords();">
+                    <label for="kern3">Kern 3</label>
+                </div>
+            </fieldset>
+        </form>
+        <h2>
+            Lees het woord en kies de afbeelding die het best bij het woord past.
+        </h2>
+        <div id="readWord">
+            aap
+        </div>
+        <div id="fouten">
+            <p>Foutief gelezen woorden:</p>
+            <ol id="foutenOl"></ol>
+        </div>
+        <div id="answers">
+            <figure id="answerImages"></figure>
+        </div>
+        <footer>
+            <p>&copy </p>
+            <p>Contact information: send us an
+                <a href="mailto:">
+                    email </a>.</p>
+        </footer>
+    </article>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

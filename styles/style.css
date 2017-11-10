@@ -1,0 +1,123 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+header {
+    height: 100px;
+    background-color: grey;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* padding: 1rem; */
+    background-color: grey;
+    text-align: center;  
+}
+
+h1 {
+    float: left;
+    margin-left: 20px;
+    color: black;
+    
+}
+
+h2 {
+    height: 100px;
+    padding: 1.2em;
+    text-align: center;
+}
+
+form {
+    padding: 1.2em;
+    font-size: 1.2em;
+}
+
+form fieldset {
+    max-width: 50%;
+    margin: auto;
+}
+
+#fouten p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#fouten {    
+    text-align: center;
+    display: none;
+}
+
+#fouten ol {
+    display: inline-block;
+}
+
+#fouten li {
+    padding: 0.5em;
+}
+
+#readWord {
+    font-size: 250%;
+    background-color: rgb(216, 202, 187);
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+#answers figure {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#answers img {
+    cursor: pointer;
+    border: 5px solid rgb(216, 202, 187);
+    margin-bottom: 25px;
+}
+
+#progress {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#progress img {
+    padding: 2px;
+}
+
+/* Set & unset visibility of the reset link */
+#reset {
+    cursor: pointer;
+    height:100px;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+span {
+    background-color: rgba(112, 79, 146, 0.522);
+    padding: 25px;
+    text-align: center;    
+}
+
+
